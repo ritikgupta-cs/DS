@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main ()
+{
+	char ch="A";
+	int x=10;
+	float pi=3.14;
+	printf("SIZE OF CHARACTER DATA TYPE IS %f BYTES\n",sizeof(ch));
+	printf("SIZE OF INTEGER DATATYPE IS %f bytes\n",sizeof(x));
+	printf("SIZE OF FLOAT DATATYPE IS %f bytes",sizeof(pi));
+    return 0;
+}
